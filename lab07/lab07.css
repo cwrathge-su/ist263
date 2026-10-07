@@ -1,4 +1,7 @@
 body{font-family: helvetica, sans-serif}
+.evenrow {background-color:#C0C4CA}
+h1{font-size: 2em}
+h2{font-size: 1.5em}
 body {background-color: #e4e7e4; margin: 20px;}
 body{color: #2E3961;}
 a {color: #777f96; text-decoration: none;}
