@@ -1,13 +1,14 @@
-body{font-family: helvetica, sans-serif}
+body{font-family: helvetica, sans-serif;
+    background-color: #e4e7e4;
+    margin: 20px;
+    color: #2E3961;}
 .evenrow {background-color:#C0C4CA}
 h1{font-size: 2em}
 h2{font-size: 1.5em}
-body {background-color: #e4e7e4; margin: 20px;}
-body{color: #2E3961;}
 a {color: #777f96; text-decoration: none;}
-h1, h2{color:#0A1647;font-size: 2em;}
+h1, h2{color:#0A1647;}
 nav{background-color: #c0c4ca;}
 nav a{color: #535c7b;}
 nav a:hover{background-color: #9ba1b0;}
 nav{padding: 10px;
-margin: bottom 30px;}
+margin-bottom: 30px;}
