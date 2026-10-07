@@ -1,9 +1,8 @@
 body{font-family: helvetica, sans-serif}
-h1, h2 {color:cadetblue}
 body {background-color: #e4e7e4; margin: 20px;}
 body{color: #2E3961;}
 a {color: #777f96; text-decoration: none;}
-h1{color:#0A1647;font-size: 2em;}
+h1, h2{color:#0A1647;font-size: 2em;}
 nav{background-color: #c0c4ca;}
 nav a{color: #535c7b;}
 nav a:hover{background-color: #9ba1b0;}
