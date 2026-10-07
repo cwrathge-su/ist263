@@ -5,10 +5,10 @@ body{font-family: helvetica, sans-serif;
 .evenrow {background-color:#C0C4CA}
 h1{font-size: 2em}
 h2{font-size: 1.5em}
-a {color: #777f96; text-decoration: none;}
+a {color: #2E3961;}
 h1, h2{color:#0A1647;}
-nav{background-color: #c0c4ca;}
-nav a{color: #535c7b;}
-nav a:hover{background-color: #9ba1b0;}
+nav{background-color: #0A1647;}
+nav a{color: #FFFFFF;}
+nav a:hover{background-color: #535C7B;}
 nav{padding: 10px;
 margin-bottom: 30px;}
