@@ -17,5 +17,5 @@ margin-bottom: 30px;}
 .two{padding: 20px}
 .one, .two {margin:10px}
 .one{flex:2;order:3;background-color:#FFFFFF;border-radius:1em;}
-.two{flex:1;order:2}
+.two{flex:1;order:2;background-color:#FFFFFF;border-radius:1em;}
 
