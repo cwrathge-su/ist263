@@ -14,8 +14,7 @@ nav{padding: 10px;
 margin-bottom: 30px;}
 .quote{float:right;}
 .two{display:flex;}
-.two{padding: 20px}
-.one, .two {margin:10px}
+.one, .two {margin:10px;padding:20px}
 .one{flex:2;order:3;background-color:#FFFFFF;border-radius:1em;}
 .two{flex:1;order:2;background-color:#FFFFFF;border-radius:1em;}
 
