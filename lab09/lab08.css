@@ -23,4 +23,4 @@ margin-bottom: 30px;}
 .form{margin:0 auto}
 .skillsimage{text-align:center;}
 .flexbox{display:flex; margin: 20px}
-.table, .skillsimage{text-align:center;}
+.table, .skillsimage{margin:0 auto;}
