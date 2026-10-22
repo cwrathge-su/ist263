@@ -19,7 +19,7 @@ margin-bottom: 30px;}
 .two{background-color:#FFFFFF;border-radius:1em;}
 .technical{text-align: center;}
 .aboutme{margin:0 auto}
-.map{flex:2; margin-left:40px;}
+.map{flex:2; margin-left:20px;}
 .form{flex:1;}
 .map iframe{
     width:100%;
