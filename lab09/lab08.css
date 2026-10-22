@@ -19,9 +19,10 @@ margin-bottom: 30px;}
 .two{background-color:#FFFFFF;border-radius:1em;}
 .technical{text-align: center;}
 .aboutme{margin:0 auto}
-.map{margin-left:40px;}
+.map{flex:2;margin-left:40px;}
+.form{flex:1;}
 .map iframe{width:100%; height:500px;width:800px;
-    border:0; margin:0 auto;}
+    border:0;}
 .flexbox{display:flex; margin: 4em;background-color: #FFFFFF;border-radius:1em;padding:20px}
 .table, .skillsimage{margin:0 auto;}
 .contact{margin-left:20px;}
