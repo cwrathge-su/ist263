@@ -20,8 +20,7 @@ margin-bottom: 30px;}
 .technical{text-align: center;}
 .aboutme{margin:0 auto}
 .form{flex:1;}
-.map{
-    flex:2;margin-left:20px;display:flex;min-height:400px;}
+.map{flex:2;margin-left:20px;display:flex;min-height:400px;}
 .map iframe{flex:1;width:100%;border:0;}
 .flexbox{display:flex;background-color:#FFFFFF ;border-radius:1em;padding:20px}
 .skillsimage{margin:0 auto}
