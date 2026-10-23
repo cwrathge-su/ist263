@@ -21,7 +21,7 @@ margin-bottom: 30px;}
 .aboutme{margin:0 auto}
 .map{flex:2; margin-left:20px;}
 .form{flex:1;}
-.map{
+.map iframe{
     width:max-content;
     height:max-content;
     border:0;}
