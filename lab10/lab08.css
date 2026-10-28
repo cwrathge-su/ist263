@@ -14,7 +14,7 @@ nav{padding: 10px;
 margin-bottom: 30px;}
 @media only screen and (max-width:600px)
     {
-        nav a{width:100%;display:block;margin: 0px 10px;}
+        nav a{width:100%;display:block;margin: 0px 30px;}
         nav span{display:none;}
     }
 .quote{float:right;}
