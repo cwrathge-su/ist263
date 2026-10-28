@@ -15,8 +15,8 @@ margin-bottom: 30px;}
 @media only screen and (max-width:600px)
     {nav a:{width:100%;}}
 .quote{float:right;}
-.two{display:flex;flex-wrap:wrap;} 
-.one, .two {margin:20px;padding:20px;}
+.two{display:flex;} 
+.one, .two {margin:20px;padding:20px;flex-wrap:wrap;}
 .one{background-color:#FFFFFF;border-radius:1em;}
 .two{background-color:#FFFFFF;border-radius:1em;}
 .technical{text-align: center;}
