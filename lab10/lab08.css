@@ -14,7 +14,7 @@ nav{padding: 10px;
 margin-bottom: 30px;}
 @media only screen and (max-width:600px)
     {nav a{width:100%;display:block;margin:10px;}
-    span{display:none}}
+    span{display:none;}}
 .quote{float:right;}
 .two{display:flex;} 
 .one, .two {margin:20px;padding:20px;flex-wrap:wrap;}
