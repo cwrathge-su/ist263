@@ -33,3 +33,5 @@ margin-bottom: 30px;}
 .table{margin:0 auto}
 .contact{margin-left:20px;}
 .headerimg{max-width:100%;}
+
+table, th, td {border: 1px solid black;}
