@@ -13,8 +13,7 @@ nav a:hover{background-color: #535C7B;}
 nav{padding: 10px;
 margin-bottom: 30px;}
 @media only screen and (min-width:600px)
-    {nav:display:none;
-    nav a:{width:100%;display:block;}}
+    {nav a:{width:100%;}}
 .quote{float:right;}
 .two{display:flex;flex-wrap:wrap;} 
 .one, .two {margin:20px;padding:20px;}
