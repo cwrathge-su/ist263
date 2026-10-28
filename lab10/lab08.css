@@ -1,0 +1,28 @@
+body{font-family: helvetica, sans-serif;
+    background-color: #e4e7e4;
+    margin: 20px;
+    color: #2E3961;}
+.evenrow {background-color:#C0C4CA}
+h1{font-size: 2em}
+h2{font-size: 1.5em}
+a {color: #777F96;}
+h1, h2{color:#0A1647;}
+nav{background-color: #0A1647;color:#E4E7E4}
+nav a{color: #FFFFFF;}
+nav a:hover{background-color: #535C7B;}
+nav{padding: 10px;
+margin-bottom: 30px;}
+.quote{float:right;}
+.two{display:flex;} 
+.one, .two {margin:20px;padding:20px;}
+.one{background-color:#FFFFFF;border-radius:1em;}
+.two{background-color:#FFFFFF;border-radius:1em;}
+.technical{text-align: center;}
+.aboutme{margin:0 auto}
+.form{flex:1;}
+.map{flex:2; margin-left:20px;}
+.map iframe{width:100%; height:400px; border:0;}
+.flexbox{display:flex;background-color:#FFFFFF ;border-radius:1em;padding:20px}
+.skillsimage{margin:0 auto}
+.table{margin:0 auto}
+.contact{margin-left:20px;}
