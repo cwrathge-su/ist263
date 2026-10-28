@@ -9,7 +9,7 @@ a {color: #777F96;}
 h1, h2{color:#0A1647;}
 nav{background-color: #0A1647;color:#E4E7E4}
 nav a{color: #FFFFFF;}
-nav a:hover{background-color: #545C7B;}
+nav a:hover{background-color: #535C7B;}
 nav{padding: 10px;
 margin-bottom: 30px;}
 @media only screen and (max-width:600px)
