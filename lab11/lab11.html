@@ -13,22 +13,13 @@
         function TryAgain (){
         alert('Wrong Shell - Try Again');
         }
-        function ShuffleShells(){
-            document.getElementById("first").style.order=Math.floor((Math.random()*3)+2);
-        }
     </script>
-    <style>
-        .container{
-            display:flex;
-        }
-        #first{order:1;}
-        #second{order:2;}
-        #third{order:3;}
+    
     </style>
     <link rel="stylesheet" href="https://peopel-su.github.io/ist263/images/animate.css">
 </head>
 
-<body onload="ShuffleShells();">
+<body>
     <h1>Choose a Walnut</h1>
     <div class="container">
         <img src="https://peopel-su.github.io/ist263/images/walnut.png" id="first" alt="first walnut" class="first" onclick="WinnerMessage();">
