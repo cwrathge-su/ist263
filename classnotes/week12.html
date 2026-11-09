@@ -4,11 +4,18 @@
     <head>
         <meta charset="utf-8">
         <title>Title goes here</title>
+        <script>
+            function wrongAnswer (){
+                document.getElementById("wrong").innerHTML = "<span style='color:red;'>True is the wrong answer!</span>";
+            }
+            function rightAnswer (){
+                document.getElementById("correct").innerHTML = "<span style='color:green;'>False is the correct answer!</span>";
+            }
+        </script>
     </head>
 
     <body>  
         <h1>Header</h1>
-        <!-- My paragraph below-->
         <p>Content goes here.</p>
 
     </body>
