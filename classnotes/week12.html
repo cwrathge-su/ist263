@@ -11,6 +11,9 @@
             function rightAnswer (){
                 document.getElementById("correct").innerHTML = "<span style='color:green;'>False is the correct answer!</span>";
             }
+            function changeImage(){
+                document.getElementById("otto").setAttribute("src", "../images/skill.png");
+            }
         </script>
     </head>
 
@@ -19,7 +22,7 @@
         <p>Java and JavaScript are the same thing.</p>
         <p onclick="wrongAnswer();" id="wrong">True</p>
         <p onclick="rightAnswer();" id="correct">False</p>
-        <img src="../images/otto.webp" alt="Otto Mascot" width="200" height="200"> 
+        <img onclick="changeImage()" id="otto" src="../images/otto.webp" alt="Otto Mascot" width="200" height="200"> 
 
     </body>
 
