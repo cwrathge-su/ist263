@@ -11,8 +11,11 @@
             function rightAnswer (){
                 document.getElementById("correct").innerHTML = "<span style='color:green;'>False is the correct answer!</span>";
             }
-            function changeImage(){
+            function change(){
                 document.getElementById("otto").setAttribute("src", "../images/flag.webp");
+            }
+            function reverse(){
+                document.getElementById("otto").setAttribute("src", "../images/otto.webp");
             }
         </script>
     </head>
@@ -22,7 +25,7 @@
         <p>Java and JavaScript are the same thing.</p>
         <p onclick="wrongAnswer();" id="wrong">True</p>
         <p onclick="rightAnswer();" id="correct">False</p>
-        <img onmouseover="changeImage()" id="otto" src="../images/otto.webp" alt="Otto Mascot" width="200" height="200"> 
+        <img onmouseover="change()" onmouseout="reverse()" id="otto" src="../images/otto.webp" alt="Otto Mascot" width="200" height="200"> 
 
     </body>
 
