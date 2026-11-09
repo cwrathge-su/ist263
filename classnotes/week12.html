@@ -17,6 +17,9 @@
             function reverse(){
                 document.getElementById("otto").setAttribute("src", "../images/otto.webp");
             }
+            function colorChange(){
+                document.getElementById("first").style.color = "#0000ff";
+            }
         </script>
         <style>
             img {border-radius: 50%;}
@@ -25,7 +28,7 @@
     </head>
 
     <body>  
-        <h1 id="first">Header 1</h1>
+        <h1 onclick="colorChange();" id="first">Header 1</h1>
         <h1>My JavaScript Quiz</h1>
         <p>Java and JavaScript are the same thing.</p>
         <p onclick="wrongAnswer();" id="wrong">True</p>
