@@ -3,7 +3,7 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <title>Title goes here</title>
+        <title>My JavaScript Quiz</title>
         <script>
             function wrongAnswer (){
                 document.getElementById("wrong").innerHTML = "<span style='color:red;'>True is the wrong answer!</span>";
@@ -15,8 +15,10 @@
     </head>
 
     <body>  
-        <h1>Header</h1>
-        <p>Content goes here.</p>
+        <h1>My JavaScript Quiz</h1>
+        <p>Java and JavaScript are the same thing.</p>
+        <p onclick="wrongAnswer();" id="wrong">True</p>
+        <p onclick="rightAnswer();" id="correct">False</p>
 
     </body>
 
