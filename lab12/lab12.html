@@ -50,22 +50,23 @@
         #planetinfo{clear:both;}
     </style>
     <script>
-        document.getElementById("mercury").styledisplay='none';
-        document.getElementById("venus").styledisplay='none';
-        document.getElementById("earth").styledisplay='none';
-        document.getElementById("mars").styledisplay='none';
-        document.getElementById("jupiter").styledisplay='none';
-        document.getElementById("saturn").styledisplay='none';
-        document.getElementById("uranus").styledisplay='none';
-        document.getElementById("neptune").styledisplay='none';
-        document.getElementById("mercuryinfo").styledisplay='none';
-        document.getElementById("venusinfo").styledisplay='none';
-        document.getElementById("earthinfo").styledisplay='none';
-        document.getElementById("marsinfo").styledisplay='none';
-        document.getElementById("jupiterinfo").styledisplay='none';
-        document.getElementById("saturninfo").styledisplay='none';
-        document.getElementById("uranusinfo").styledisplay='none';
-        document.getElementById("neptuneinfo").styledisplay='none';
+        function PlanetsOff() {
+            document.getElementById("mercury").styledisplay='none';
+            document.getElementById("venus").styledisplay='none';
+            document.getElementById("earth").styledisplay='none';
+            document.getElementById("mars").styledisplay='none';
+            document.getElementById("jupiter").styledisplay='none';
+            document.getElementById("saturn").styledisplay='none';
+            document.getElementById("uranus").styledisplay='none';
+            document.getElementById("neptune").styledisplay='none';
+            document.getElementById("mercuryinfo").styledisplay='none';
+            document.getElementById("venusinfo").styledisplay='none';
+            document.getElementById("earthinfo").styledisplay='none';
+            document.getElementById("marsinfo").styledisplay='none';
+            document.getElementById("jupiterinfo").styledisplay='none';
+            document.getElementById("saturninfo").styledisplay='none';
+            document.getElementById("uranusinfo").styledisplay='none';
+            document.getElementById("neptuneinfo").styledisplay='none';}
         function MercuryOn (){
             document.getElementById("mercury").style.display='block';
             document.getElementById("mercuryinfo").style.display='block';
