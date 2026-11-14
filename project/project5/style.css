@@ -348,3 +348,18 @@ main p img {
         font-size: 2.2rem;
     }
 }
+
+/* =========================================================
+   Clickable cards (Living LBI)
+   ========================================================= */
+a.card {
+    display: block;
+    color: inherit;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+a.card:focus-visible {
+    outline: 3px solid var(--coral);
+    outline-offset: 4px;
+}
