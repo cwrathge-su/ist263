@@ -194,6 +194,31 @@ main {
     color: var(--coral);
 }
 
+/* ---------- Image handling ---------- */
+/* Every photo fills its card at the same 3:2 shape, cropped (not squished) */
+.card img {
+    object-fit: cover;
+    object-position: center;
+    background: var(--seafoam); /* shows while a photo loads or if it's missing */
+}
+
+/* Cards that don't have a photo yet get a matching beachy banner
+   so every card lines up with the ones that do. */
+.card:not(:has(img))::before {
+    content: "🏖️";
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    aspect-ratio: 3 / 2;
+    margin-bottom: 14px;
+    font-size: 3.5rem;
+    background: linear-gradient(to bottom, var(--seafoam) 0%, var(--foam) 55%, var(--sand-dark) 100%);
+}
+
+.card:not(:has(img)) > h3:first-child {
+    margin-top: 0;
+}
+
 /* ---------- Footer ---------- */
 footer {
     background: var(--navy);
