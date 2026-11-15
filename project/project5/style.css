@@ -4,6 +4,7 @@ body{font-family: helvetica, sans-serif;
     color: #1f3a46;}
 h1{font-size: 2em; text-align: center;}
 h2{font-size: 1.5em;}
+.category h2{margin-left: 1.5%;}
 h3{font-size: 1.2em;}
 h1, h2, h3{color: #0b4f6c; font-family: georgia, serif;}
 a {color: #1b8aa6;}
@@ -40,6 +41,7 @@ footer{background-color: #0b4f6c; color: #FFFFFF; padding: 10px; margin-top: 30p
         nav a{width: 100%; display: block; padding: 10px 0px;}
         header img{height: 200px;}
         .card{width: 100%; margin: 15px 0px;}
+        .category h2{margin-left: 0px;}
         .postcards img{width: 100%; margin: 10px 0px;}
         .floatleft, .floatright{float: none; width: 100%; margin: 20px 0px;}
         .flag{float: none; max-width: 100%; margin: 20px 0px;}
