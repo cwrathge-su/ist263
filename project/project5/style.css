@@ -15,7 +15,7 @@ footer nav{margin-bottom: 0;}
 
 header img{max-width: 100%;}
 main{max-width: 1000px; margin: 0 auto;}
-main > img, p img{display: block; margin: 20px auto; max-width: 100%; border-radius: 1em;}
+main img, p img{display: block; margin: 20px auto; max-width: 100%; border-radius: 1em;}
 
 .intro{text-align: center;}
 
