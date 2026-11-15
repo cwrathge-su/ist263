@@ -1,6 +1,6 @@
 body{font-family: helvetica, sans-serif;
     background-color: #fbf3e4;
-    margin: 20px;
+    margin: 0;
     color: #1f3a46;}
 h1{font-size: 2em; text-align: center;}
 h2{font-size: 1.5em;}
@@ -13,11 +13,15 @@ nav a{color: #FFFFFF; padding: 10px;}
 nav a:hover{background-color: #1b8aa6;}
 footer nav{margin-bottom: 0;}
 
-header img{max-width: 100%;}
-main{max-width: 1000px; margin: 0 auto;}
+header img{display: block; width: 100%;}
+main{max-width: 1000px; margin: 0 auto; padding: 20px;}
 main img, p img{display: block; margin: 20px auto; max-width: 100%; border-radius: 1em;}
 
 .intro{text-align: center;}
+
+.postcards{display: flex; flex-wrap: wrap;}
+.postcards img{width: 30%; margin: 1.5%;}
+.flag{float: right; max-width: 30%; margin: 0px 0px 20px 20px;}
 
 .card-grid{display: flex; flex-wrap: wrap;}
 .card{background-color: #FFFFFF; border-radius: 1em; width: 30%; margin: 1.5%;}
@@ -34,4 +38,6 @@ footer{background-color: #0b4f6c; color: #FFFFFF; padding: 10px; margin-top: 30p
     {
         nav a{width: 100%; display: block; padding: 10px 0px;}
         .card{width: 100%; margin: 15px 0px;}
+        .postcards img{width: 100%; margin: 10px 0px;}
+        .flag{float: none; max-width: 100%; margin: 20px 0px;}
     }
