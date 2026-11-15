@@ -21,6 +21,8 @@ main img, p img{display: block; margin: 20px auto; max-width: 100%; border-radiu
 
 .postcards{display: flex; flex-wrap: wrap;}
 .postcards img{width: 30%; margin: 1.5%;}
+.floatleft{float: left; width: 35%; margin: 0px 20px 20px 0px;}
+.floatright{float: right; width: 30%; margin: 0px 0px 20px 20px;}
 .flag{float: right; max-width: 30%; margin: 0px 0px 20px 20px;}
 
 .card-grid{display: flex; flex-wrap: wrap;}
@@ -39,5 +41,6 @@ footer{background-color: #0b4f6c; color: #FFFFFF; padding: 10px; margin-top: 30p
         nav a{width: 100%; display: block; padding: 10px 0px;}
         .card{width: 100%; margin: 15px 0px;}
         .postcards img{width: 100%; margin: 10px 0px;}
+        .floatleft, .floatright{float: none; width: 100%; margin: 20px 0px;}
         .flag{float: none; max-width: 100%; margin: 20px 0px;}
     }
