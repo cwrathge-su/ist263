@@ -27,7 +27,7 @@ main img, p img{display: block; margin: 20px auto; max-width: 100%; border-radiu
 .card{background-color: #FFFFFF; border-radius: 1em; width: 30%; margin: 1.5%;}
 .card:hover{background-color: #fff4d6;}
 a.card{color: #1f3a46; text-decoration: none;}
-.card img{max-width: 100%; border-radius: 1em 1em 0 0;}
+.card img{width: 100%; height: 200px; object-fit: cover; border-radius: 1em 1em 0 0;}
 .card h3{margin: 20px 20px 10px 20px;}
 .card .contact{margin: 10px 20px; padding: 10px; background-color: #e8f7f5; border-radius: 1em;}
 .card ul{margin: 10px 20px 20px 20px; padding-left: 20px;}
