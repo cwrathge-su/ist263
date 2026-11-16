@@ -14,8 +14,8 @@ main img{display: block; margin: 20px auto; max-width: 100%; border-radius: 1em;
 .intro{text-align: center;}
 .postcards{display: flex; flex-wrap: wrap;}
 .postcards img{width: 30%; margin: 1.5%;}
-.floatleft{float: left; width: 35%; margin: 0px 20px 20px 0px;}
-.floatright{float: right; width: 30%; margin: 0px 0px 20px 20px;}
+.flag{float: left; width: 35%; margin: 0px 20px 20px 0px;}
+.beach{float: right; width: 30%; margin: 0px 0px 20px 20px;}
 .category h2{margin: 0px 1.5%; padding-bottom: 5px; border-bottom: 2px solid #ff7f6b;}
 .card-grid{display: flex; flex-wrap: wrap;}
 .card{background-color: #FFFFFF; border-radius: 1em; width: 30%; margin: 1.5%; color: #1f3a46; text-decoration: none;}
