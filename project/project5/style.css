@@ -36,7 +36,6 @@ a.card{color: #1f3a46; text-decoration: none;}
 .card ul{margin: 10px 20px 20px 20px; padding-left: 20px;}
 
 footer{clear: both; background-color: #0b4f6c; color: #FFFFFF; padding: 0px; margin-top: 30px; text-align: center;}
-footer{border-top: 4px solid #ffffff;}
 footer p{background-color: #ff7f6b; color: #1f3a46; margin: 0px; padding: 10px;}
 
 @media only screen and (max-width:600px)
