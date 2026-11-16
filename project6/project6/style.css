@@ -3,7 +3,6 @@ h1{font-size: 2em; text-align: center;}
 h2{font-size: 1.5em;}
 h3{font-size: 1.2em;}
 h1, h2, h3{color: #0b4f6c; font-family: georgia, serif;}
-a{color: #1b8aa6;}
 nav{display: flex; flex-wrap: wrap; align-items: center; background-color: #0b4f6c; padding: 20px; border-bottom: 4px solid #ff7f6b;}
 nav span{margin-right: auto; color: #ffd166; font-family: georgia, serif; font-size: 1.6em;}
 nav a{color: #FFFFFF; padding: 10px 20px; font-size: 1.1em; border-radius: 1em; text-decoration: none;}
