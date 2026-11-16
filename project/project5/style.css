@@ -40,14 +40,13 @@ footer nav{border-bottom: 4px solid #FFFFFF;}
 footer p{background-color: #ff7f6b; color: #1f3a46; margin: 0px; padding: 10px;}
 
 @media only screen and (max-width:600px)
-    {
-        nav{display: block; text-align: center;}
-        nav span{display: block; margin: 0px 0px 10px 0px;}
-        nav a{width: 100%; display: block; padding: 10px 0px;}
-        header img{height: 200px;}
-        .card{width: 100%; margin: 15px 0px;}
-        .category h2{margin-left: 0px; margin-right: 0px;}
-        .postcards img{width: 100%; margin: 10px 0px;}
-        .floatleft, .floatright{float: none; width: 100%; margin: 20px 0px;}
-        .flag{float: none; max-width: 100%; margin: 20px 0px;}
+    {nav{display: block; text-align: center;}
+    nav span{display: block; margin: 0px 0px 10px 0px;}
+    nav a{width: 100%; display: block; padding: 10px 0px;}
+    header img{height: 200px;}
+    .card{width: 100%; margin: 15px 0px;}
+    .category h2{margin-left: 0px; margin-right: 0px;}
+    .postcards img{width: 100%; margin: 10px 0px;}
+    .floatleft, .floatright{float: none; width: 100%; margin: 20px 0px;}
+    .flag{float: none; max-width: 100%; margin: 20px 0px;}
     }
